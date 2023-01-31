@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Styles/home.css">
+    <link rel="stylesheet" href="./Styles/general.css">
+    <link rel="shortcut icon" type="image/svg" href="./Pics/Logo-01.svg">
+    <title>Forside - GreenLeaf</title>
+</head>
+<body>
+    <div class="header-and-nav">
+        <header>
+            <div class="headerbox">
+                <div class="ht">
+                    <h1 class="headtext"><a href="./index.html">GreenLeaf</a></h1>
+                </div>
+                <div class="hp">
+                    <a href="./index.html"><img src="./Pics/Logo.svg" class="logo"></a>
+                </div>
+            </div>
+        </header>
+
+        <nav id="myTopNav" class="topNav">
+            <ul id="main-nav" class="menu-bar">
+                <li class="nav-link"><a href="./HTML/about.html" class="menu-link">Om os</a></li>
+                <li class="nav-link"><a href="./HTML/donate.html" class="menu-link">Donation / Plant et træ</a></li>
+                <li class="nav-link"><a href="./HTML/partners.html" class="menu-link">Partners / Sponsors</a></li>
+                <li class="nav-link"><a href="./HTML/contact.html" class="menu-link">Kontakt os</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <main>
+        <h1 class="sec-title">"The creation of a thousand forests is in one acorn"</h1>
+        <p class="sec-byline">Ralph Waldo Emerson.</p>
+
+        <section class="mid">
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                    <img src="./Pics/leafgirl.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="./Pics/treescity2.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="./Pics/trees.jpg" style="width:100%">
+                </div>
+
+                <div style="text-align:center" class="dots">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+        </section>
+    </main>
+    <footer>
+        <div class="footerbox">
+            <div class="ft">
+                <img src="./Pics/Logo.svg" class="logo2"></img>
+            </div>
+            <div class="fp">
+                <p class="copyright">&#169; 2022 copyright - GreenLeaf </p>
+            </div>
+            <div class="formular2">
+                <form action="./HTML/subscriptionconfirmed.html" class="mailsub">
+                    <p class="subtext">Tilmeld dig vores nyhedsbrev:</p>
+                    <input type="text" name="email" placeholder="Din E-mailadresse." id="txt"/>
+                    <input type="submit" name="subscribe" value="Tilmeld" id="sub">
+                </form>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+        }
+    </script>
+</body>
+</html>

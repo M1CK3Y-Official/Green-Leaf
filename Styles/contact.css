@@ -1,0 +1,146 @@
+/* SECTION */
+.mid {
+    border-top: 5px solid #6BAA75;
+    border-bottom: 5px solid #6BAA75;
+    border-radius: 5px;    
+    
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 50px;
+    margin-top: 25px;
+    
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    background-color: #6BAA7525;
+}
+
+.sec-title {
+    font-size: 50px;
+    color: #253031;
+    text-align: center;
+
+    padding-top: 20px;
+}
+
+.sec-byline {
+    text-align: center;
+}
+
+.sec-text {
+    font-size: 16px;
+    color: #253031;
+    text-align: right;
+    line-height: 20px;
+
+    margin-left: 25px;
+    margin-right: 25px;
+
+    padding: 0 25px 0 25px;
+    padding-top: 20px;
+}
+
+/* SECTION END */
+
+
+/* KONTAKTFORMULAR */
+
+/* input[type="text"], */
+#fname, #lname, select,
+textarea {
+    width: 100%;
+
+    padding: 12px;
+
+    border: 2px solid #6BAA75;
+    border-radius: 25px;
+
+    box-sizing: border-box;
+
+    margin-top: 6px;
+    margin-bottom: 16px;
+
+    resize: vertical;
+}
+
+input[type="email"] {
+    width: 100%;
+
+    padding: 12px;
+
+    border: 2px solid #6BAA75;
+    border-radius: 25px;
+
+    box-sizing: border-box;
+
+    margin-top: 6px;
+    margin-bottom: 16px;
+
+    resize: vertical;
+
+    color: #253031;
+}
+
+input[type=submit] {
+    background-color: #6BAA7575;
+
+    font-weight: 600;
+    color: #253031;
+
+    padding: 12px 30px;
+
+    border: 2px solid #6BAA75;
+    border-radius: 25px;
+
+    cursor:pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #6BAA75;
+}
+
+.container{
+    padding: 0 25px 0 25px;
+
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#star{
+    font-size: 12px;
+    font-weight: 500;
+    color: #253031;
+}
+
+#fornavn, #efternavn, #mail, #land, #besked {
+    color: #253031;
+    font-weight: 500;
+}
+
+.navn1, .navn2, .land, .besked{
+    background-color: #6BAA7575;
+
+    font-family: 'Red Hat Display';
+}
+
+::placeholder {
+    color: #315659;
+}
+
+.land {
+    color: #315659;
+}
+
+.besked {
+    color: #315659;
+}
+
+.navn1 {
+    color: #315659;
+}
+
+.navn2 {
+    color: #315659;
+}
+
+/* KONTAKTFOMULAR END */

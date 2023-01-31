@@ -1,0 +1,418 @@
+/* SECTION */
+.mid {
+    border-top: 5px solid #6BAA75;
+    border-bottom: 5px solid #6BAA75;
+    border-radius: 5px;    
+    
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 50px;
+    margin-top: 25px;
+    
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    background-color: #6BAA7525;
+}
+
+.sec-title {
+    font-size: 50px;
+    text-align: center;
+    color: #253031;
+
+    padding-top: 20px;
+}
+
+.sec-byline {
+    text-align: center;
+}
+
+.sec-text {
+    font-size: 20px;
+    line-height: 30px;
+    color: #253031;
+
+    margin-left: 25px;
+    margin-right: 25px;
+
+    padding: 0 25px 0 25px;
+}
+
+
+.sec-para2 {
+    padding-top: 40px;
+}
+
+.sec-para3 {
+    padding-top: 40px;
+}
+
+.sec-para4 {
+    padding-top: 40px;
+}
+
+.sec-para5 {
+    padding-top: 40px;
+}
+
+/* SECTION END */
+
+
+/* DONATION BOX */
+
+.donation-container {
+	height: 400px;
+
+	font-size: 12px;
+	font-weight: 500;
+	text-transform: uppercase;
+
+	margin-top: 30px;
+}
+
+.donation-box {
+	width: 390px;
+	height: 386px;
+
+	background-color: #6BAA7525;
+
+	position: relative;
+
+	margin-left: auto;
+	margin-right: auto;
+
+    border-radius: 25px;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+	
+	-webkit-transition: all 0.15s ease-out;
+	-moz-transition: all 0.15s ease-out;
+	-o-transition: all 0.15s ease-out;
+	transition: all 0.15s ease-out;
+}
+
+.donation-box .title {
+	width: 100%;
+
+	background-color: #6BAA7575;
+
+    border: 2px solid #6BAA75;
+	border-top-left-radius: 25px;
+  	border-top-right-radius: 25px;
+
+	font-size: 18px;
+	font-weight: 800;
+	color: #253031;
+	text-align: center;
+
+	padding-top: 12px;
+	padding-bottom: 12px;
+	
+}
+
+.donation-box .donate-button {
+	width: 100%;
+
+	bottom: 0px;
+	position: absolute;
+
+	background-color: #6BAA7575;
+
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: 2px solid #6BAA75;
+
+	font-size: 18px;
+	font-weight: 800;
+	color: #253031;
+	text-align: center;
+	
+	padding-top: 12px;
+	padding-bottom: 12px;
+
+	cursor: pointer;
+}
+
+.donation-box .fields {
+	width: 59%;
+
+	display: block;
+
+	position: absolute;
+	top: 60px;
+	left: 15px;
+}
+
+.donation-box .fields input {
+	width: 100%;
+
+	font-size: 15px;
+	color: #253031;
+	font-weight: 500;
+
+	padding: 10px;
+
+	margin-bottom: 10px;
+
+	border-radius: 25px;
+	border-width: 0px;
+	border: 2px solid #6BAA75;
+
+	background-color: #6BAA7575;
+
+	-webkit-font-smoothing: antialiased;
+}
+
+::-webkit-input-placeholder {
+   color: #cdcdcd;
+   font-size: 15px;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #cdcdcd;
+   font-size: 15px;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #cdcdcd;
+   font-size: 15px; 
+}
+
+:-ms-input-placeholder {  
+   color: #cdcdcd;
+   font-size: 15px;
+}
+
+.donation-box .amount {
+	width: 30%;
+
+	display: block;
+
+	position: absolute;
+	top: 60px;
+	right: 15px;
+}
+
+.donation-box .amount .button {
+	width: 100%;
+
+	background-color: #6BAA7575;
+
+	border: 2px solid #6BAA75;
+	border-radius: 25px;
+
+	padding: 8.5px;
+
+	margin-bottom: 10px;
+
+	font-size: 15px;
+	color: #253031;
+	text-align: center;
+
+	cursor: pointer;
+	
+	-webkit-transition: 400ms background-color;
+	-moz-transition: 800ms opacity, 800ms right;
+	-ms-transition: 800ms opacity, 800ms right;
+	-o-transition: 800ms opacity, 800ms right;
+	transition: 200ms background-color;
+}
+
+.donation-box .amount .button:hover {
+	background-color: #6BAA75;
+}
+
+.donation-box .amount .button.selected {
+	background-color: #6BAA75;
+}
+
+.donation-box .amount .button input {
+	min-width: 34px;
+
+	font-size: 15px;
+	font-weight: 500;
+	color: #253031;
+	font-stretch: normal;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	text-align: center;
+
+	border: none;
+	border-bottom: 2px solid #253031;
+
+	background-color: transparent;
+
+	-webkit-font-smoothing: antialiased;
+	
+	-webkit-transition: all 0.15s ease-out;
+	-moz-transition: all 0.15s ease-out;
+	-o-transition: all 0.15s ease-out;
+	transition: all 0.15s ease-out;
+}
+
+.set-amount {
+	max-width: 96px;
+}
+
+.switch {
+  position: absolute;
+  top: 195px;
+  left: 15px;
+
+  margin: 20px auto;
+
+  height: 26px;
+  width: 58.5%;
+
+  background: #6BAA7525;
+
+  border-radius: 25px;
+}
+
+.switch-label {
+  position: relative;
+  z-index: 2;
+  float: left;
+
+  width: 49%;
+
+  font-size: 11px;
+  font-weight: bold;
+  color: #253031;
+  text-align: center;
+  line-height: 26px;
+
+  cursor: pointer;
+}
+.switch-label:active {
+  font-weight: bold;
+}
+
+.switch-label-off {
+  padding-left: 2px;
+}
+
+.switch-label-on {
+  padding-right: 2px;
+}
+
+.switch-input {
+  display: none;
+}
+.switch-input:checked + .switch-label {
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.65);
+  
+  -webkit-transition: 0.15s ease-out;
+  -moz-transition: 0.15s ease-out;
+  -o-transition: 0.15s ease-out;
+  transition: 0.15s ease-out;
+}
+.switch-input:checked + .switch-label-on ~ .switch-selection {
+  left: 114px;
+}
+
+.switch-selection {
+  display: block;
+
+  position: absolute;
+  z-index: 1;
+  top: 2px;
+  left: 2px;
+
+  width: 49%;
+  height: 22px;
+
+  background: #6BAA7575;
+
+  border-radius: 25px;
+  border: 2px solid #6BAA75;
+
+  background-color: #6BAA7575;
+  
+  -webkit-transition: left 0.15s ease-out;
+  -moz-transition: left 0.15s ease-out;
+  -o-transition: left 0.15s ease-out;
+  transition: left 0.15s ease-out;
+}
+
+.checkboxes {
+	position: absolute;
+	top: 247px;
+	left: 13px;
+}
+
+.checkboxes label {
+	position: relative;
+	top: -8px;
+
+	font-size: 13px;
+	color: #253031;
+}
+
+.checkbox {
+	-webkit-appearance: none;
+	background-color: #6BAA7575;
+
+	border: 2px solid #6BAA75;
+	border-radius: 5px;
+
+	display: inline-block;
+
+	position: relative;
+
+	padding: 9px;
+	
+	-webkit-transition: all 0.15s ease-out;
+	-moz-transition: all 0.15s ease-out;
+	-o-transition: all 0.15s ease-out;
+	transition: all 0.15s ease-out;
+}
+
+.checkbox:hover {
+	cursor: pointer;
+}
+
+.checkbox:checked {
+	background-color: #6BAA75;
+
+	border: 2px solid #6BAA7575;
+
+	color: #315659;
+}
+
+.checkbox:checked:after {
+	content: '\2714';
+	
+	font-size: 14px;
+	color: #315659;
+	
+	position: absolute;
+	top: 0px;
+	left: 3px;
+}
+
+.confirm {
+	display: none;
+
+	position: absolute;
+	top: 335px;
+	left: 15px;
+	right: 15px;
+
+	font-size: 16px;
+	
+	-webkit-transition: all 0.15s ease-out;
+	-moz-transition: all 0.15s ease-out;
+	-o-transition: all 0.15s ease-out;
+	transition: all 0.15s ease-out;
+}
+
+.confirm i {
+	font-weight: bold;
+	text-decoration: underline;
+	font-style: normal;
+}
+
+/* DONATION BOX END */

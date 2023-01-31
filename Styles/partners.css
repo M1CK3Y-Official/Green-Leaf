@@ -1,0 +1,76 @@
+/* SECTION */
+.mid {
+    border-top: 5px solid #6BAA75;
+    border-bottom: 5px solid #6BAA75;
+    border-radius: 5px;    
+    
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 50px;
+    margin-top: 25px;
+    
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    background-color: #6BAA7525;
+}
+
+.sec-title {
+    font-size: 50px;
+    color: #253031;
+    text-align: center;
+
+    padding-top: 20px;
+}
+
+.sec-byline {
+    text-align: center;
+}
+
+.sec-text {
+    font-size: 20px;
+    color: #253031;
+    line-height: 30px;
+
+    margin-left: 25px;
+    margin-right: 25px;
+    
+    padding: 0 25px 0 25px;
+}
+
+.greenpeace {
+    width: 450px;
+}
+
+.save-the-trees {
+    width: 350px;
+}
+
+.team-trees {
+    width: 250px;
+}
+
+.sec-para1 {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.sec-para2 {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.sec-para3 {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.sec-para4 {
+    padding-top: 20px;
+}
+
+.sec-para5 {
+    padding-top: 20px;
+}
+
+/* SECTION END */
